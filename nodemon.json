@@ -1,0 +1,5 @@
+{
+    "verbose": true,
+    "ignore": ["client/*"],
+    "exec": "webpack --config webpack.config.server.js && node ./dist/server.build.js"
+}
